@@ -6,12 +6,12 @@ body{
 .text-primary{
     color: #FD6E0A;
 }
-
 /* nav related styles */
 nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 200px;
 }
 .btn-primary{
     border-radius: 5px;
@@ -27,7 +27,6 @@ nav{
     font-size: 45px;
     font-weight: 800;
 }
-
 nav > ul{
     display: flex;
     align-items: center;
@@ -40,4 +39,16 @@ nav li{
 nav a{
     text-decoration: none;
     color: #474747;
+}
+/* header related styles */
+.header{
+    background-color: #FFF8F3;
+}
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+.banner .profile-pic{
+    width: 500px;
 }
