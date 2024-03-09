@@ -90,11 +90,32 @@ nav a{
     height: 60px;
 }
 /* main section styles */
-
+main{
+    max-width: 1140px;
+    align-items: center;
+    margin: 0 auto;
+}
 /* about section styles */
 .about{
     padding: 131px;
-    margin: 120px 230px;
+    margin: 120px 0;
+    /* 230px; */
     background-color: #FFF8F3;
     border-radius: 10px;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
+    color: #757575;
+}
+.info-title{
+    font-size: 17px;
+    line-height: 30px;
+    margin-bottom: 0;
+}
+.info-description{
+    margin: 0px;
 }
